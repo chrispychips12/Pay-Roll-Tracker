@@ -37,6 +37,7 @@ SOURCES + ACKNOWLEDGMENTS
 - https://www.codecademy.com/courses/introduction-to-javascript/lessons/control-flow/exercises/if-statement
 - https://www.youtube.com/watch?v=EerdGm-ehJQ - "JavaScript Tutorial Full Course - Beginner to Pro (2024)"
 - https://devdocs.io
+- mimo.org
 
 
 - SOURCE CODE: https://github.com/coding-boot-camp/curly-potato/tree/main/Develop
