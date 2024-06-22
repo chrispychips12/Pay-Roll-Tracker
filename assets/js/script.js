@@ -57,7 +57,16 @@ const displayAverageSalary = function (employeesArray) {
 
 // Select a random employee
 const getRandomEmployee = function (employeesArray) {
-    
+    if(employeesArray.length === 0){
+        console.log("No employee to display, please add employee")
+        return; // another alert, if no employee data is inputted
+    }
+    const randomIndex = Math.floor(Math.random() * employeesArray.length); // created to make a random Index formula which is referenced below
+    const randomEmployee = employeesArray[randomIndex]; // now the randomEmployee variable can use randomIndex to pull random data in employees array
+
+    console.log(`Our random employee today is ${randomEmployee.firstName} ${randomEmployee.lastName} with a salary of ${randomEmployee.salary}`)
+// console log on the random employee details- here I'm calling on the variable randomEmployee as well as 
+// the specific variable inside, aka the firstName, lastName and Salary
 }
 
 /*
