@@ -1,4 +1,9 @@
 # Pay-Roll-Tracker
+
+DEPLOYED LINK: https://github.com/chrispychips12/Pay-Roll-Tracker/deployments/github-pages
+
+_______________________________________________________________________________________________________________________________
+
 I have created an employee and employee salary tracker
 
 - When "add an employee" button is clicked, the user is presented with prompts asking for First Name, Last Name and Salary
