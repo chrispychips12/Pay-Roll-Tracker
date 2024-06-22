@@ -12,6 +12,7 @@ AND, the console log will show aggregated data, AND, a random employee's details
 <a href="/assets/images/Screenshot 2024-06-22 at 1.29.22 PM.png"></a>
 <a href="/assets/images/Screenshot 2024-06-22 at 1.29.32 PM.png"></a>
 
+
 !!! PLEASE SEE IMAGES FILES FOR SCREENSHOT !!!!
 
 
@@ -46,3 +47,7 @@ SOURCES + ACKNOWLEDGMENTS
 Christopher Concepcion @github.com/chrispychips12
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
+
+![Screenshot 2024-06-22 at 1 29 32 PM](https://github.com/chrispychips12/Pay-Roll-Tracker/assets/94519893/6787ce21-0810-46e1-8ab8-bf7d5a2c86f5)
+![Screenshot 2024-06-22 at 1 29 22 PM](https://github.com/chrispychips12/Pay-Roll-Tracker/assets/94519893/d842062f-94ae-4526-98f3-67f7521706e0)
+![Screenshot 2024-06-22 at 1 29 09 PM](https://github.com/chrispychips12/Pay-Roll-Tracker/assets/94519893/e62e0291-583b-444a-ad28-0c56ae41d776)
