@@ -35,7 +35,10 @@ const displayAverageSalary = function (employeesArray) {
 
 // Select a random employee
 const getRandomEmployee = function (employeesArray) {
-    // TODO: Select and display a random employee
+    if(employeesArray.length === 0) {
+        console.log("No employees were added")
+        return;
+      } // first if statement to show an error if no employees were added
 }
 
 /*
