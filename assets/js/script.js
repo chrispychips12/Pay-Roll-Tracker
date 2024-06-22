@@ -3,7 +3,6 @@ const addEmployeesBtn = document.querySelector('#add-employees-btn');
 
 // Collect employee data
 const collectEmployees = function () {
-    // TODO: Get user input to create and return an array of employee objects
     const employees = []; //empty array to add information
     let moreEmployees = true; // boolean function to start a loop "add more employees"
 
@@ -15,30 +14,50 @@ const collectEmployees = function () {
         if (firstName && lastName && !isNaN(salary)) {
             employees.push({ firstName, lastName, salary });
         } else {
-            alert("Invalid input :(");
+            alert("Invalid input :("); // invalid alert if input is not right or there is missing information
         }
 
-        moreEmployees = confirm("Add another employee?")
+        moreEmployees = confirm("Add another employee?") //confirmation prompt to continue or stop the loop
 
     }
 
     if (employees.length === 0) {
-        console.log("No employees were added.");
+        console.log("No employees were added."); // alert created if loop ends with no data
     }
 
-    return employees;
+    return employees; // once the while loop has ended, return inputted data
 }
 // Display the average salary
 const displayAverageSalary = function (employeesArray) {
     // TODO: Calculate and display the average salary
+    if (employeesArray.length === 0) {
+        console.log("No employees were added")
+        return;
+    } // first if statement to show an error if no employees were added
+
+    let sum = 0;
+    for (let i = 0; i < employeesArray.length; i++) {
+        sum += employeesArray[i].salary;
+    } // created sum to add the salary by the length of the inputted array
+
+    const averageSalary = sum / employeesArray.length; // averageSalary = the sum (total) divided by the array length
+    console.log(`The average salary is ${averageSalary.toLocaleString("en-US", {
+        style: "currency",
+        currency: "USD"  
+    })}`);
+
+    // added styling as per display rules already created below
+    // salaryCell.textContent = currentEmployee.salary.toLocaleString("en-US", {
+    //    style: "currency",
+    //    currency: "USD"
+
+    return averageSalary;
+    //display average salary value once for loop has ended
 }
 
 // Select a random employee
 const getRandomEmployee = function (employeesArray) {
-    if(employeesArray.length === 0) {
-        console.log("No employees were added")
-        return;
-      } // first if statement to show an error if no employees were added
+    
 }
 
 /*
