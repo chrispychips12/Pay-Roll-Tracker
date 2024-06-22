@@ -8,9 +8,9 @@ I have created an employee and employee salary tracker
 AND, the console log will show aggregated data, AND, a random employee's details
 - including: First Name, Last Name and Salary 
 
-<a href="./assets/images/Screenshot 2024-06-22 at 1.29.09 PM.png" >
-<a href="/assets/images/Screenshot 2024-06-22 at 1.29.22 PM.png" >
-<a href="/assets/images/Screenshot 2024-06-22 at 1.29.32 PM.png" >
+<a href="./assets/images/Screenshot 2024-06-22 at 1.29.09 PM.png"></a>
+<a href="/assets/images/Screenshot 2024-06-22 at 1.29.22 PM.png"></a>
+<a href="/assets/images/Screenshot 2024-06-22 at 1.29.32 PM.png"></a>
 
 !!! PLEASE SEE IMAGES FILES FOR SCREENSHOT !!!!
 
