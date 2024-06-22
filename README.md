@@ -14,7 +14,6 @@ AND, the console log will show aggregated data, AND, a random employee's details
 
 !!! PLEASE SEE IMAGES FILES FOR SCREENSHOT !!!!
 
-==================================================================
 
 I utilised some foundational javascript concepts including
 - for and while loops, to determine outcomes
@@ -43,3 +42,7 @@ SOURCES + ACKNOWLEDGMENTS
 - SOURCE CODE: https://github.com/coding-boot-camp/curly-potato/tree/main/Develop
 - Nikhil Deo: teaching me JavaScript concepts and helping me break down the project
 - Alex Sexwale, Tristan Kennedy - USYD TA - lessons on javascript, DOM and web APIS
+
+Christopher Concepcion @github.com/chrispychips12
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
