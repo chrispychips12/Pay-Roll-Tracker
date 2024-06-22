@@ -16,7 +16,7 @@ AND, the console log will show aggregated data, AND, a random employee's details
 
 ==================================================================
 
-I utilised some foudnational javacript concepts including
+I utilised some foundational javascript concepts including
 - for and while loops, to determine outcomes
 - if statements 
 - mathematical formulas such as +=, 
@@ -26,3 +26,19 @@ I utilised some foudnational javacript concepts including
 - Interpolation was used to create string outputs from generated data
 - prompts and alerts if inputted data is incorrect or missing
 - I also refered to the existing code to create new variables
+- Used criteria concepts such as isNan, return, Math and if statements
+
+SOURCES + ACKNOWLEDGMENTS
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+- https://www.codecademy.com/courses/introduction-to-javascript/lessons/control-flow/exercises/if-statement
+- https://www.youtube.com/watch?v=EerdGm-ehJQ - "JavaScript Tutorial Full Course - Beginner to Pro (2024)"
+- https://devdocs.io
+
+
+- SOURCE CODE: https://github.com/coding-boot-camp/curly-potato/tree/main/Develop
+- Nikhil Deo: teaching me JavaScript concepts and helping me break down the project
+- Alex Sexwale, Tristan Kennedy - USYD TA - lessons on javascript, DOM and web APIS

@@ -46,7 +46,7 @@ const displayAverageSalary = function (employeesArray) {
         currency: "USD"
     })}`);
 
-    // added styling as per display rules already created below
+    // added styling as per display rules already created below - LINE 102!! 
     // salaryCell.textContent = currentEmployee.salary.toLocaleString("en-US", {
     //    style: "currency",
     //    currency: "USD"
