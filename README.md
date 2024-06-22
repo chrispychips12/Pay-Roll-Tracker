@@ -1,6 +1,6 @@
 # Pay-Roll-Tracker
 
-DEPLOYED LINK: https://github.com/chrispychips12/Pay-Roll-Tracker/deployments/github-pages
+DEPLOYED LINK: https://chrispychips12.github.io/Pay-Roll-Tracker/
 
 _______________________________________________________________________________________________________________________________
 
