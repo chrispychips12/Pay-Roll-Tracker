@@ -12,7 +12,9 @@ const collectEmployees = function() {
     const lastName = prompt("Please enter last name");
     const salary = parseFloat(prompt("Please enter salary")); // variables added with prompts to store main information when the loop starts
 
-    if 
+    if (firstName && lastName && !isNaN(salary)) { // added NaN value to check that salary is inputted as a number 
+
+    }
   }
 }
 
