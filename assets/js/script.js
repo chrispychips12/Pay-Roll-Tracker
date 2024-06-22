@@ -43,7 +43,7 @@ const displayAverageSalary = function (employeesArray) {
     const averageSalary = sum / employeesArray.length; // averageSalary = the sum (total) divided by the array length
     console.log(`The average salary is ${averageSalary.toLocaleString("en-US", {
         style: "currency",
-        currency: "USD"  
+        currency: "USD"
     })}`);
 
     // added styling as per display rules already created below
@@ -57,7 +57,7 @@ const displayAverageSalary = function (employeesArray) {
 
 // Select a random employee
 const getRandomEmployee = function (employeesArray) {
-    if(employeesArray.length === 0){
+    if (employeesArray.length === 0) {
         console.log("No employee to display, please add employee")
         return; // another alert, if no employee data is inputted
     }
@@ -65,8 +65,8 @@ const getRandomEmployee = function (employeesArray) {
     const randomEmployee = employeesArray[randomIndex]; // now the randomEmployee variable can use randomIndex to pull random data in employees array
 
     console.log(`Our random employee today is ${randomEmployee.firstName} ${randomEmployee.lastName} with a salary of ${randomEmployee.salary}`)
-// console log on the random employee details- here I'm calling on the variable randomEmployee as well as 
-// the specific variable inside, aka the firstName, lastName and Salary
+    // console log on the random employee details- here I'm calling on the variable randomEmployee as well as 
+    // the specific variable inside, aka the firstName, lastName and Salary
 }
 
 /*
